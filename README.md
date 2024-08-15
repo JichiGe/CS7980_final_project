@@ -1,11 +1,17 @@
 # CS7980_final_project
 
-Step1:
-unzip CS7980.zip
+1) Unzip the CS7980.zip file.
 
-Step2:
-install Gradio, dectron2 and cv2
+2) Install required packages
+```
+pip install gradio detectron2 opencv-python
+```
 
-Step3:
-run the python file by:
+3) Run the Gradio application.
+```
 python3 gradio_app.py
+```
+
+4) From the terminal, copy-paste the link to the Gradio server into your browser.
+
+5) Upload a photo to the model, and submit. Enlarge the resulting photo to see the bounding boxes and tags.
